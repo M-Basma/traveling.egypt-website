@@ -25,3 +25,8 @@ header nav .menu li{
 header nav .menu a:hover{
   color:yellow;
 }
+.hero{
+  text align: center;
+  padding: 5% 0;
+  height:100vh
+}
