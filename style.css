@@ -31,3 +31,7 @@ header nav .menu a:hover{
   height:100vh;
   background-image url (https://picsum.photos/200/300/?blur)
 }
+
+display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
