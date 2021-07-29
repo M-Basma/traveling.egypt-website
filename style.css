@@ -1,5 +1,5 @@
 body {
-  color:
+  color:#F5F5DC;
 }
 a{
   text decoration: none;
@@ -20,5 +20,8 @@ padding :1%;
 }
 header nav .menu li{
   dispaly:inline;
-  margin right
+  margin-right: 1em;
+}
+header nav .menu a:hover{
+  color:yellow;
 }
