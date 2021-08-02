@@ -1,5 +1,5 @@
 body {
-  color:#F5F5DC;
+  color:red;
 }
 a{
   text decoration: none;
@@ -31,7 +31,13 @@ header nav .menu a:hover{
   height:100vh;
   background-image url (https://picsum.photos/200/300/?blur)
 }
+.parent {
+  display: flex;
+  height: 300px; /* Or whatever */
+}
 
-display:flex;
-flex-wrap: wrap;
-justify-content: space-between;
+.child {
+  width: 100px;  /* Or whatever */
+  height: 100px; /* Or whatever */
+  margin: auto;  /* Magic! */
+}
