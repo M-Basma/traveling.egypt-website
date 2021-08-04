@@ -42,7 +42,7 @@ header nav .menu a:hover{
   flex-direction:row;
   justify-content:space-between;
   flex-wrap:wrap;
-  align-item:strech;
+  align-items:stretch;
 }
 .child {
   width: 100px;  /* Or whatever */
