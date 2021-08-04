@@ -57,6 +57,7 @@ header nav .menu a:hover{
   color: black;
   font-weight: bold;
   font-size: 1em;
-  text-align: center;
-
+  text-align: right;
+  flex-wrap: nowrap;
+justify-content:
 }
