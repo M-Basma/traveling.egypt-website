@@ -42,12 +42,14 @@ header nav .menu a:hover{
   flex-direction:row;
   justify-content:space-between;
   flex-wrap:wrap;
+  align-item:strech;
 }
 .child {
   width: 100px;  /* Or whatever */
   height: 100px; /* Or whatever */
   margin: auto;  /* Magic! */
   flex-wrap:wrap;
+  padding: 5px;
 }
 .flex-item {
   display:flex;
@@ -62,6 +64,4 @@ header nav .menu a:hover{
   font-size: 1em;
   text-align: right;
 
-  justify-content:center;
-  flex-direction: row;
 }
