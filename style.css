@@ -58,6 +58,7 @@ header nav .menu a:hover{
   font-weight: bold;
   font-size: 1em;
   text-align: right;
-  flex-wrap: nowrap;
-justify-content:
+  flex-wrap:nowrap;
+  justify-content:center;
+  flex-direction: row;
 }
