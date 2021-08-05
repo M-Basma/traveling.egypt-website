@@ -1,68 +1,57 @@
 body {
-background-color:#F9D3A3;
+  background-color: #F9D3A3;
 }
-  h1{
-    color:#D87D42;
-    display:flex;
-    style="font-family:courier;"
-  }
-a{
-  text decoration: none;
+h1 {
+  color: #D87D42;
+}
+a {
+  textdecoration: none;
 }
 img {
-  display:block;
+  display: block;
 }
-footer{
-  padding:3%;
+footer {
+  padding: 3%;
 }
 header nav {
-  background-color:#DC9030;
-    margin-bottom: 1%;
+  background-color: #DC9030;
+  margin-bottom: 1%;
 }
-header nav .menu{
-  margin:0;
-padding :1%;
+header nav .menu {
+  margin: 0;
+  padding: 1%;
 }
-header nav .menu li{
-  dispaly:inline;
+header nav .menu li {
+  dispaly: inline;
   margin-right: 3em;
 }
-header nav .menu a:hover{
-  color:#EEA74E;
+header nav .menu a:hover {
+  color: #EEA74E;
 }
-.hero{
-  text align: center;
+.hero {
+  textalign: center;
   padding: 5% 0;
-  height:100vh;
-  background-image url (https://picsum.photos/200/300/?blur)
+  height: 100vh;
 }
 .flex-parent {
   display: flex;
-  height: 400px; /* Or whatever */
-  flex-direction:row;
-  justify-content:space-between;
-  align-items:stretch;
-  flex-flow:wrap;
+  justify-content: space-between;
+  /*   align-items:stretch; */
+  flex-flow: wrap;
 }
 .child {
- 
-  margin-bottom:5%;
-  
+  margin-bottom: 5%;
 }
 .flex-item {
-  
-  background:#F9DDB9;
+  background: #F9DDB9;
   padding: 5px;
-  width: 300px;
-  height: 300px;
-  
+  width: 30%;
+
   color: #E1B377;
   font-weight: normal;
   font-size: 1em;
-  
-
 }
-.flex-parent.flex-item h1{
-  margin:0 0;
-  margin:1em 3em 5em 0;
+.flex-parent.flex-item h1 {
+  margin: 0 0;
+  margin: 1em 3em 5em 0;
 }
