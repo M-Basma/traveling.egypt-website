@@ -36,7 +36,7 @@ header nav .menu a:hover{
   height:100vh;
   background-image url (https://picsum.photos/200/300/?blur)
 }
-.parent {
+.flex-parent {
   display: flex;
   height: 400px; /* Or whatever */
   flex-direction:row;
@@ -45,10 +45,9 @@ header nav .menu a:hover{
   flex-flow:wrap;
 }
 .child {
-  width: 100px;  /* Or whatever */
-  height: 100px; /* Or whatever */
-  margin: auto;  /* Magic! */
-  padding: 5px;
+ 
+  margin-bottom:5%;
+  
 }
 .flex-item {
   
@@ -56,11 +55,15 @@ header nav .menu a:hover{
   padding: 5px;
   width: 300px;
   height: 300px;
-  margin-top: 10px;
+  
   line-height: 150px;
   color: #E1B377;
   font-weight: normal;
   font-size: 1em;
   text-align: right;
 
+}
+.flex-parent.flex-item h1{
+  margin:0 0;
+  margin:1em 3em 5em 0;
 }
