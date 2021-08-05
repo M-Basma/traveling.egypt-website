@@ -16,7 +16,7 @@ footer{
   padding:3%;
 }
 header nav {
-  background-color: #000;
+  background-color: #ce871d;
     margin-bottom: 1%;
 }
 header nav .menu{
@@ -28,7 +28,7 @@ header nav .menu li{
   margin-right: 3em;
 }
 header nav .menu a:hover{
-  color:yellow;
+  color:#EEA74E;
 }
 .hero{
   text align: center;
@@ -60,7 +60,7 @@ header nav .menu a:hover{
   margin-top: 10px;
   line-height: 150px;
   color: #E1B377;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 1em;
   text-align: right;
 
