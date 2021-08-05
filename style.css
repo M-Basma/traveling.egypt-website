@@ -1,6 +1,5 @@
 body {
-  color: #444;
-  /* color:red; */
+background-color:#F9D3A3;
 }
   h1{
     color:#D87D42;
@@ -54,13 +53,13 @@ header nav .menu a:hover{
 }
 .flex-item {
   display:flex;
-  background:powderblue;
+  background:#F9DDB9;
   padding: 5px;
   width: 200px;
   height: 150px;
   margin-top: 10px;
   line-height: 150px;
-  color: black;
+  color: #E1B377;
   font-weight: bold;
   font-size: 1em;
   text-align: right;
