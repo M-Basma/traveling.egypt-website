@@ -5,6 +5,9 @@ body {
 h1 {
   color: #D87D42;
 }
+p{
+  font-size: 17px;
+}
 a {
   textdecoration: none;
 }
@@ -20,11 +23,11 @@ header nav {
 }
 header nav .menu {
   margin: 0;
-  padding: 1%;
+  padding: 2%;
 }
 header nav .menu li {
   dispaly: inline;
-  margin-right: 3em;
+  margin-right:5em;
 }
 header nav .menu a:hover {
   color: #EEA74E;
